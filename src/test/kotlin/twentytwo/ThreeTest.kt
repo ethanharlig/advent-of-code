@@ -28,7 +28,11 @@ class ThreeTest {
     @Test
     fun getStringsAndCommonType() {
         val three = Three()
-        val strings = listOf(Pair('v', "wMqvLMZHhHMvwLHjbvcjnnSBnvTQFn"), Pair('t', "ttgJtRGJQctTZtZT"), Pair('s', "CrZsJsPPZsGzwwsLwLmpwMDw"))
+        val strings = listOf(
+            Pair('v', "wMqvLMZHhHMvwLHjbvcjnnSBnvTQFn"),
+            Pair('t', "ttgJtRGJQctTZtZT"),
+            Pair('s', "CrZsJsPPZsGzwwsLwLmpwMDw")
+        )
 
         strings.forEach {
             val pairStrings = three.getTwoStrings(it.second)

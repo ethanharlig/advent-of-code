@@ -35,7 +35,6 @@ class One {
             allElves.add(curElfCalories)
         }
 
-        // TODO probably preserve original ndx
         allElves.sortByDescending { it.sum() }
         return allElves
     }

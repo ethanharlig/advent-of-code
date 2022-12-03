@@ -1,6 +1,6 @@
 package twentytwo
 
-import java.lang.RuntimeException
+import FileUtil
 
 class Three {
 
