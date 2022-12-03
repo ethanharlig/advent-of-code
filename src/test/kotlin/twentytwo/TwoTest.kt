@@ -34,7 +34,10 @@ class TwoTest {
 
         assertEquals(3, Two.TerminalGameState.determineGameStateScore(Two.Moves.ROCK, Two.Moves.ROCK).scoreValue)
         assertEquals(3, Two.TerminalGameState.determineGameStateScore(Two.Moves.PAPER, Two.Moves.PAPER).scoreValue)
-        assertEquals(3, Two.TerminalGameState.determineGameStateScore(Two.Moves.SCISSORS, Two.Moves.SCISSORS).scoreValue)
+        assertEquals(
+            3,
+            Two.TerminalGameState.determineGameStateScore(Two.Moves.SCISSORS, Two.Moves.SCISSORS).scoreValue
+        )
 
         assertEquals(6, Two.TerminalGameState.determineGameStateScore(Two.Moves.ROCK, Two.Moves.PAPER).scoreValue)
         assertEquals(6, Two.TerminalGameState.determineGameStateScore(Two.Moves.PAPER, Two.Moves.SCISSORS).scoreValue)

@@ -1,6 +1,6 @@
 package twentytwo
 
-import java.lang.RuntimeException
+import FileUtil
 
 class Two {
     enum class Moves(val scoreValue: Int) {
@@ -21,7 +21,7 @@ class Two {
             }
 
             fun determineMove(other: Moves, terminalGameState: TerminalGameState): Moves {
-                return when(terminalGameState) {
+                return when (terminalGameState) {
                     TerminalGameState.LOSE -> {
                         when (other) {
                             ROCK -> SCISSORS
