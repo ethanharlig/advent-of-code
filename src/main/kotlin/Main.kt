@@ -1,5 +1,6 @@
+import twentytwo.Five
 import twentytwo.Four
 
 fun main() {
-    Four().main()
+    Five().main()
 }
