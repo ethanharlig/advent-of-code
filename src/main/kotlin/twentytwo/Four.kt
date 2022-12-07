@@ -19,7 +19,7 @@ class Four {
 
             // part 1
             // if (firstList.containsAll(secondList) || secondList.containsAll(firstList)) {
-                // overlappingCount++
+            // overlappingCount++
             // }
 
             // part 2

@@ -1,5 +1,6 @@
 package twentytwo
 
+import FileUtil
 import java.util.*
 
 class Five {
@@ -29,7 +30,11 @@ class Five {
             if (it.startsWith("move")) {
                 val lineCommands = it.substringAfter("move ").trim().split(" ")
                 // doStackMovementOneByOne(lineCommands[0].toInt(), lineCommands[2].toInt() - 1, lineCommands[4].toInt() - 1)
-                doStackMovementManyAtOnce(lineCommands[0].toInt(), lineCommands[2].toInt() - 1, lineCommands[4].toInt() - 1)
+                doStackMovementManyAtOnce(
+                    lineCommands[0].toInt(),
+                    lineCommands[2].toInt() - 1,
+                    lineCommands[4].toInt() - 1
+                )
             }
         }
 
