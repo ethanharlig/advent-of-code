@@ -1,5 +1,5 @@
-import twentytwo.Six
+import twentytwo.Seven
 
 fun main() {
-    Six().main()
+    Seven().main()
 }

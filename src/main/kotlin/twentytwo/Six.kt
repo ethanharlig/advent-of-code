@@ -25,11 +25,10 @@ class Six {
             curStr += line[ndx]
 
             if (curStr.toCharArray().distinct().size == 14) {
-                println("Found character: ${ndx+1}")
-                return ndx+1
+                println("Found character: ${ndx + 1}")
+                return ndx + 1
             }
         }
         return -1
     }
-
 }
