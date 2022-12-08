@@ -3,15 +3,15 @@ package twentytwo
 import FileUtil
 import java.util.*
 
-class Seven {
+class Solution07 {
 
     private final val FILE_SYSTEM_SIZE = 70000000
     private final val UPDATE_SPACE_NEEDED = 30000000
 
     fun main() {
-        val myTest = doStuff("/src/main/resources/twentytwo/seven/test.txt")
+        val myTest = doStuff("/src/main/resources/twentytwo/07/test.txt")
         println(myTest)
-        val myActual = doStuff("/src/main/resources/twentytwo/seven/actual.txt")
+        val myActual = doStuff("/src/main/resources/twentytwo/07/actual.txt")
         println(myActual)
     }
 

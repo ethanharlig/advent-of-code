@@ -2,13 +2,13 @@ package twentytwo
 
 import FileUtil
 
-class Three {
+class Solution03 {
 
     fun main() {
-        val myTestPriorities = doStuff("/src/main/resources/twentytwo/three/test.txt")
+        val myTestPriorities = doStuff("/src/main/resources/twentytwo/03/test.txt")
         println(myTestPriorities)
 
-        val actualPriorities = doStuff("/src/main/resources/twentytwo/three/actual.txt")
+        val actualPriorities = doStuff("/src/main/resources/twentytwo/03/actual.txt")
         println(actualPriorities)
     }
 

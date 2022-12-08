@@ -7,16 +7,15 @@ import org.junit.runners.JUnit4
 import kotlin.test.assertEquals
 
 @RunWith(JUnit4::class)
-class SevenTest {
-
-    private lateinit var seven: Seven
+class Solution07Test {
+    private lateinit var seven: Solution07
 
     private lateinit
     var fileSystem: MutableMap<String, MutableList<Pair<String, Int>>>
 
     @Before
     fun beforeEach() {
-        seven = Seven()
+        seven = Solution07()
         fileSystem = mutableMapOf()
     }
 
@@ -30,7 +29,7 @@ class SevenTest {
 
     @Test
     fun canCalculateMySizeAndChildren() {
-        val seven = Seven()
+        val seven = Solution07()
         val fileSystem = mutableMapOf<String, MutableList<Pair<String, Int>>>()
         fileSystem["/"] = mutableListOf(Pair("slash", 100), Pair("roott.txt", 200))
         fileSystem["/one"] = mutableListOf(Pair("one", 100), Pair("one.txt", 200))

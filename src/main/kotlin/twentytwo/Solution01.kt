@@ -2,12 +2,12 @@ package twentytwo
 
 import FileUtil
 
-class One {
+class Solution01 {
     fun main() {
-        val basicTest = readCalculateSortCalories("/src/main/resources/twentytwo/one/test.txt")
+        val basicTest = readCalculateSortCalories("/src/main/resources/twentytwo/01/test.txt")
         println("basic test most: ${basicTest[0].sum()}")
 
-        val caloriesInOrder = readCalculateSortCalories("/src/main/resources/twentytwo/one/actual.txt")
+        val caloriesInOrder = readCalculateSortCalories("/src/main/resources/twentytwo/01/actual.txt")
         // part 1
         println("actual data most: ${caloriesInOrder[0].sum()}")
         // part 2

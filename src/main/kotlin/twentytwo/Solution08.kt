@@ -3,13 +3,13 @@ package twentytwo
 import FileUtil
 import kotlin.math.abs
 
-class Eight {
+class Solution08 {
 
     fun main() {
-        val myTest = doStuff("/src/main/resources/twentytwo/eight/test.txt")
+        val myTest = doStuff("/src/main/resources/twentytwo/08/test.txt")
         println(myTest)
 
-        val myActual = doStuff("/src/main/resources/twentytwo/eight/actual.txt")
+        val myActual = doStuff("/src/main/resources/twentytwo/08/actual.txt")
         println(myActual)
     }
 

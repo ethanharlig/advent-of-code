@@ -1,5 +1,5 @@
-import twentytwo.Eight
+import twentytwo.Solution08
 
 fun main() {
-    Eight().main()
+    Solution08().main()
 }

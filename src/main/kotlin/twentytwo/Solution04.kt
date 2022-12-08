@@ -1,11 +1,11 @@
 package twentytwo
 
-class Four {
+class Solution04 {
     fun main() {
-        val myTest = doStuff("/src/main/resources/twentytwo/four/test.txt")
+        val myTest = doStuff("/src/main/resources/twentytwo/04/test.txt")
         println(myTest)
 
-        val myActual = doStuff("/src/main/resources/twentytwo/four/actual.txt")
+        val myActual = doStuff("/src/main/resources/twentytwo/04/actual.txt")
         println(myActual)
     }
 

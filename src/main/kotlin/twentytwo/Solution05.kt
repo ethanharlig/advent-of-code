@@ -3,11 +3,11 @@ package twentytwo
 import FileUtil
 import java.util.*
 
-class Five {
+class Solution05 {
     fun main() {
-//        val myTest = doStuff("/src/main/resources/twentytwo/five/test.txt") println(myTest)
+//        val myTest = doStuff("/src/main/resources/twentytwo/05/test.txt") println(myTest)
 
-        val myActual = doStuff("/src/main/resources/twentytwo/five/actual.txt")
+        val myActual = doStuff("/src/main/resources/twentytwo/05/actual.txt")
         println(myActual)
     }
 

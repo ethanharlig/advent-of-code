@@ -2,7 +2,7 @@ package twentytwo
 
 import FileUtil
 
-class Two {
+class Solution02 {
     enum class Moves(val scoreValue: Int) {
         ROCK(1),
         PAPER(2),
@@ -78,10 +78,10 @@ class Two {
     }
 
     fun main() {
-        val myTestScore = doStuff("/src/main/resources/twentytwo/two/test.txt")
+        val myTestScore = doStuff("/src/main/resources/twentytwo/02/test.txt")
         println(myTestScore)
 
-        val myTotalScore = doStuff("/src/main/resources/twentytwo/two/actual.txt")
+        val myTotalScore = doStuff("/src/main/resources/twentytwo/02/actual.txt")
         println(myTotalScore)
     }
 
